@@ -19,6 +19,7 @@ def reverse_string(a):
     for i in lst:
         i = i[::-1]
         ret_str= ret_str+" "+i
+        print(id(ret_str))
     return ret_str
 
 def palindrome(a):
