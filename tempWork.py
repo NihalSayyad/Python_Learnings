@@ -28,6 +28,14 @@ def palindrome(a):
             return False
     return True
 
+def temp1(a):
+    a = 5
+
+a=10
+print(a)
+temp1(a)
+print(a)
+
 a = "palindromemordnila"
 print(f"status palindrome : {palindrome(a)}" )
 
